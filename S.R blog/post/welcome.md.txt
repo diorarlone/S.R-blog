@@ -1,0 +1,27 @@
+# Welcome to hpht.sr
+
+This is your first SR blog post!
+
+```sr
+lane^<> 
+{
+  *HEADER o.p"welcome to hpht.sr"
+  *PRIME o.p"hpht.sr"
+}
+pile^
+{
+  img."http.gigo.pampa.co.ke"     o.P"diorarlone"
+  o.p"black community"
+}
+
+base^<>
+{
+  *PILE.1 o.p""
+  *PILE.2 o.p"
+  *PILE.4 o.p"
+  *PILE.4 o.p"
+}
+hpht.runcode{}
+```
+
+This blog is built from scratch and features live SR code highlighting!

@@ -1,0 +1,131 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: #fafafa;
+    color: #222;
+}
+header {
+    background: #2b2b2b;
+    color: #fff;
+    padding: 2em 1em;
+    text-align: center;
+}
+main {
+    max-width: 700px;
+    margin: 2em auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+pre.sr, code.sr {
+    background: #262626;
+    color: #e6e6e6;
+    padding: 1em;
+    border-radius: 8px;
+    font-family: 'Fira Mono', 'Consolas', 'Monaco', monospace;
+    font-size: 1.05em;
+    overflow-x: auto;
+    margin: 1em 0;
+}
+/* SR Highlighting (very basic) */
+.sr .keyword    { color: #ffab70; }
+.sr .string     { color: #90ee90; }
+.sr .comment    { color: #999; font-style: italic; }
+.sr .type       { color: #f6c; }
+.sr .func       { color: #8fd; }
+
+a { color: #1e88e5; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+nav {
+    background: #444;
+    padding: 1em;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ff9900;
+}
+
+#back-btn {
+    display: inline-block;
+    margin-bottom: 1em;
+    background: #1e88e5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+    font-size: 1em;
+}
+#back-btn:hover {
+    background: #1565c0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #222;
+    color: #bbb;
+    border-radius: 10px 10px 0 0;
+    margin-top: 2em;
+}
+footer a { color: #ff9900; }
+
+@media (max-width: 600px) {
+    main {
+        padding: 1em;
+    }
+    header {
+        padding: 1em 0.5em;
+    }
+}#search-container {
+    text-align: center;
+    margin: 1em 0 2em 0;
+}
+#search-input {
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 60%;
+    max-width: 300px;
+}
+#search-btn {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border-radius: 4px;
+    border: none;
+    background: #1e88e5;
+    color: #fff;
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+#search-btn:hover {
+    background: #1565c0;
+}
+#post-list li {
+    margin-bottom: 1em;
+    list-style: none;
+}
+#post-list li a {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+#post-list li p {
+    margin: 0.25em 0 0 0;
+    color: #666;
+    font-size: 0.95em;
+}
+nav img {
+    vertical-align: middle;
+    margin-right: 0.3em;
+}
+
